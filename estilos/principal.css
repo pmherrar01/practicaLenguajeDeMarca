@@ -64,6 +64,8 @@ footer{
     margin-top: 10%;
     width: 70%; 
     height: 50%;
+    background-color: rgb(0,0,0,);
+    border: solid 5px;
 }
 
 /*texo del main del index*/
