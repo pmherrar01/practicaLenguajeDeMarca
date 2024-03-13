@@ -1,0 +1,84 @@
+/*le ponemos margen 0*/
+*{
+    padding: 0%;
+    margin: 0%;                 
+}
+
+/*ponemos que toda la pigina tenga un mismo tamaño y mismo color*/
+html,body{
+    height: 100%;               
+    width: 100%;
+    background-color:rgb(245, 245, 220);
+}
+
+/*damos el mismo estilo a todas las cabeceras de las paginas que utilicen la etiqueta header*/
+header{
+    background-color: black;
+    text-align: center;
+    color: 	rgb(255, 162, 0);
+    width: 100%;
+    height: 15%;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*damos estilo a todas las etiquedas nav que son el menu de todas las paginas*/
+nav{
+    background-color: rgb(255, 162, 0);
+    width: 100%;
+    height: 5%;
+}
+
+/*en todas las etiquetas a se le quita el estilo predefinido y se pone las letras de color negro*/
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/*tolas las etiquetas aside cogen este estilo*/
+aside{
+    width: 50%;
+    height: 75%;
+    float: right;
+
+}
+
+/*tolas las etiquetas main cogen este estilo*/
+main{
+    width: 50%;
+    height: 75%; 
+}
+
+/*todos los pies de paginas cogen este estilo*/
+footer{
+    width: 100%;
+    height: 5%; 
+    background-color: rgb(255, 162, 0);
+    text-align: right;
+}
+
+/*que la imagen del index coja un margen y un pading*/
+#imgportada{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 70%; 
+    height: 50%;
+}
+
+/*texo del main del index*/
+#textoportada{
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+
+/*estilos del menu*/
+.menu{  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0,0,0,);                     
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 15%;
+    padding-top: 0.5%;
+}
