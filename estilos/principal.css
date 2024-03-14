@@ -116,11 +116,19 @@ a{
 }
 
 /*de la pagina de contacto el texto con la direccion y toda la informacion coge*/
-#cntc1{
-    float: left;
+#textocontacto{
+    margin-left: 20%;
     width: 50%;
     height: 100%;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*el mapa*/
+#mapa{
+    border: solid 3px rgb(255, 162, 0);;
+    width: 600px;
+    height: 450px;
+    margin-top: 10%;
+    margin-left: 5%;
 }
